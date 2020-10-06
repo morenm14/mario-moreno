@@ -1,0 +1,51 @@
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    margin: auto 30px;
+    
+}
+
+#credits{
+    font-style: italic;
+    font-size: .75em;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: rgb(29, 29, 29);
+}
+
+ h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em 0 .65em 0;
+    color: rgb(58, 113, 233);
+}
+img{
+    width: 100%;
+}
+.accent{
+    color: #008060;
+}
+
+.package-container footer{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 2.5em;
+}
+#p1-author, #p2-author, #p3-author,
+#p1-downloads, #p2-downloads, #p3-downloads,
+#p1-stars, #p2-stars, #p3-stars{
+    margin-right: 20px;
+}
+#p1-description,#p2-description,#p3-description{
+    line-height: 26px;
+}
+
+#page-footer{
+    font-size: 12px;
+    
+    
+}
+
