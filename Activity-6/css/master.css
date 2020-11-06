@@ -1,0 +1,63 @@
+body{
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Lato';
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.messages{
+    margin-bottom: 20px;
+}
+.out-message{
+    padding: 10px 10px;
+    background-color: rgb(52, 119, 187);
+    color: white;
+    margin-bottom: 10px;
+    align-items: center;
+    font-family: 'Open sans';
+    font-size: 12px;
+    border-radius: 25px;
+}
+
+.in-message{
+    padding: 10px 10px;
+    background-color: rgb(211, 211, 211);
+    margin-bottom: 10px;
+    font-family: 'Open sans';
+    font-size: 12px;
+    border-radius: 25px;
+}
+
+#message-input{
+    width: 50%;
+    border: 1px solid rgb(167, 162, 162);
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+
+#send-button{
+    height: 30px;
+    margin-right: 5px;
+    padding: 0 15px;
+    background-color: rgb(52, 119, 187);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+#reply-button{
+    height: 30px;
+    padding: 0 15px;
+    background-color: rgb(211, 211, 211);
+    border: none;
+    border-radius: 10px;
+}
