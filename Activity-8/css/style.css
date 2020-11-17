@@ -65,7 +65,7 @@ main #display-content{
     background-color: #fff;
     z-index: 99999;
     width: 300px;
-    height: 320px;
+    height: 350px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -118,7 +118,28 @@ main #display-content{
 #edit-title-text{
     width: 200px;
 }
+#edit-title-message{
+    display: none;
+    margin-top: 5px;
+    font-size: 10px;
+    color: red;
+}
 
+#edit-title-message.visible{
+    display: block;
+}
+
+
+#edit-content-message{
+    display: none;
+    margin-top: 5px;
+    font-size: 10px;
+    color: red;
+}
+
+#edit-content-message.visible{
+    display: block;
+}
 
 
 #edit-content-text{
