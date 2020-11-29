@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Activity 9</title>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Good Quotes</h1>
+        <div class="header-menu">
+            <button id="new-button">New</button>
+        </div>
+    </header>
+    <main>  
+        <section id="sidebar">
+            <ul id="nav-container"></ul>
+        </section>
+        <section id="post-container">
+            <section id="intro">
+                <h2>Welcome to Good Quotes</h2>
+                <p>Need an inspiring quote? Select a topic from the menu</p>
+                <blockquote>
+                    [A] Quotation is a handy thing to have about, saving one the trouble of thinking oneself.
+                    always a laborious business.
+                </blockquote>
+                <span class="author">A.A. Milne</span>
+            </section>
+        </section>
+        
+        <!--Modal Dialog (hidden by default)-->
+        
+        <div class="modal" id="modal-dialog">
+            <section>
+                <h3>Category</h3>
+                <input type="text" id="edit-title-text">
+                <span id="edit-title-message"></span>
+            </section>
+        
+            <section>
+                <h3>Quote:</h3>
+                <textarea id="edit-content-text" cols="80" rows="6"></textarea>
+                <span id="edit-content-message"></span>
+                <h3>Author:</h3>
+                <input type="text" id="edit-author-text">
+                <span id="edit-author-message"></span>
+            </section>
+            <footer>
+                <button type="button" id="cancel-button">Cancel</button>
+                <button type="button" id="save-button">Save</button>
+            </footer>
+        </div>
+        
+        <div id="modal-backdrop"></div>
+    </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
